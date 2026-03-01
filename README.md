@@ -19,3 +19,8 @@ Identity is a primary control for preventing breaches. This project shows govern
 ## Next improvements
 - Add MFA notes and conditional access strategy
 - Add group-based entitlement mapping
+
+## Note on group-based role assignment
+Group-based role assignments (“role-assignable groups”) are preferred for scalable least-privilege access.
+This tenant does not have Entra ID P1/P2, so role-assignable groups are not available.
+For this lab, roles are assigned directly to users while the intended group-based model is documented.
